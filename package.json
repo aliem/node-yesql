@@ -1,27 +1,30 @@
 {
-  "name": "yesql",
-  "version": "0.0.1",
-  "description": "yesql for node.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "tape test/**/*.js | faucet"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aliem/node-yesql.git"
-  },
-  "keywords": [
-    "SQL",
-    "yesql"
-  ],
-  "author": "Lorenzo Giuliani",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aliem/node-yesql/issues"
-  },
-  "homepage": "https://github.com/aliem/node-yesql#readme",
-  "devDependencies": {
-    "faucet": "0.0.1",
-    "tape": "^4.4.0"
-  }
+    "name": "yesql",
+    "version": "0.0.1",
+    "description": "yesql for node.js",
+    "main": "index.js",
+    "engines" : {
+        "node" : ">= 4.0"
+    },
+    "scripts": {
+        "test": "tape test/**/*.js | faucet"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aliem/node-yesql.git"
+    },
+    "keywords": [
+        "SQL",
+        "yesql"
+    ],
+    "author": "Lorenzo Giuliani",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/aliem/node-yesql/issues"
+    },
+    "homepage": "https://github.com/aliem/node-yesql#readme",
+    "devDependencies": {
+        "faucet": "0.0.1",
+        "tape": "^4.4.0"
+    }
 }
